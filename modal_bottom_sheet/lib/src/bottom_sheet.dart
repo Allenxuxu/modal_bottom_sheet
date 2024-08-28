@@ -494,5 +494,8 @@ PointerDeviceKind defaultPointerDeviceKind(BuildContext context) {
       return PointerDeviceKind.mouse;
     case TargetPlatform.fuchsia:
       return PointerDeviceKind.unknown;
+
+    default:
+      return PointerDeviceKind.unknown;
   }
 }
